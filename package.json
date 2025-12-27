@@ -1,0 +1,15 @@
+{
+  "name": "env-sanity-check",
+  "version": "1.0.0",
+  "description": "Checks if your .env file has all required variables",
+  "main": "env-sanity-check.js",
+  "bin": {
+    "env-check": "./env-sanity-check.js"
+  },
+  "scripts": {
+    "test": "echo \"Tests? We don't need tests when we have .env problems!\" && exit 0"
+  },
+  "keywords": ["env", "dotenv", "debugging", "sanity"],
+  "author": "Your Sanity",
+  "license": "MIT"
+}
